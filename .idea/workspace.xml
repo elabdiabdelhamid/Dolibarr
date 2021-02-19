@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04c9b91c-545e-4d19-9f8a-c97fe9b63cbb" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="e#6#1004#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+              <folding>
+                <element signature="e#6#878#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/phpstan/bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/admin/system/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-655" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/core/lib/functions.lib.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73695">
+              <caret line="4365" selection-start-line="4365" selection-end-line="4365" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/langs/fr_FR/admin.lang">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18938">
+              <caret line="1114" column="57" selection-start-line="1114" selection-start-column="57" selection-end-line="1114" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/htdocs/main.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8296">
+              <caret line="1677" lean-forward="true" selection-start-line="1677" selection-end-line="1677" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/master.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/filefunc.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>side-nav</find>
+      <find>id-right</find>
+      <find>logo_setup</find>
+      <find>fiche</find>
+      <find>centpercent</find>
+      <find>main_area</find>
+      <find>notopnoleftnoright</find>
+      <find>L'espace configuration permet de réaliser le paramétrage</find>
+      <find>L'espace configuration permet de réaliser le paramétrage initial afin de pouvoir commencer à utiliser l'applic</find>
+      <find>SetupDescription1²</find>
+      <find>Mon tableau de bord</find>
+      <find>MyDashboard</find>
+      <find>htdocs</find>
+      <find>home</find>
+      <find>titre</find>
+      <find>id-left</find>
+      <find>left_menu</find>
+      <find>men</find>
+      <find>menu</find>
+      <find>side-nav-vert</find>
+      <find>dol_invisible_topmenu</find>
+      <find>SetupDescription1</find>
+      <find>fa fa-print</find>
+      <find>login_block_other</find>
+      <find>valignmiddle</find>
+      <find>navigation</find>
+      <find>Dolibarr</find>
+      <find>Outils</find>
+      <find>doli</find>
+      <find>tmenuimage</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\dolibarr\htdocs</dir>
+      <dir>C:\xampp\htdocs\dolibarr\htdocs\admin</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/htdocs/theme/md/style.css.php" />
+        <option value="$PROJECT_DIR$/htdocs/user/group/card.php" />
+        <option value="$PROJECT_DIR$/htdocs/bom/bom_document.php" />
+        <option value="$PROJECT_DIR$/htdocs/core/lib/functions.lib.php" />
+        <option value="$PROJECT_DIR$/htdocs/core/menus/standard/eldy.lib.php" />
+        <option value="$PROJECT_DIR$/htdocs/index.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/htdocs/admin/index.php" />
+        <option value="$PROJECT_DIR$/htdocs/main.inc.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/htdocs/includes/OAuth/Common" />
+      <path value="$PROJECT_DIR$/htdocs/includes/nusoap/lib" />
+      <path value="$PROJECT_DIR$/htdocs/includes/restler/framework" />
+      <path value="$PROJECT_DIR$/htdocs/includes/ckeditor/ckeditor" />
+      <path value="$PROJECT_DIR$/htdocs/includes/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/htdocs/includes/OAuth/OAuth1" />
+      <path value="$PROJECT_DIR$/htdocs/includes/OAuth/OAuth2" />
+      <path value="$PROJECT_DIR$/htdocs/includes/odtphp/zip" />
+      <path value="$PROJECT_DIR$/htdocs/includes/phpoffice/phpexcel" />
+      <path value="$PROJECT_DIR$/htdocs/includes/phpoffice/PhpSpreadsheet" />
+      <path value="$PROJECT_DIR$/htdocs/includes/jquery/js" />
+      <path value="$PROJECT_DIR$/htdocs/includes/Psr/simple-cache" />
+      <path value="$PROJECT_DIR$/htdocs/includes/Psr/Log" />
+      <path value="$PROJECT_DIR$/htdocs/includes/jquery/plugins" />
+      <path value="$PROJECT_DIR$/htdocs/includes/jquery/css" />
+      <path value="$PROJECT_DIR$/htdocs/includes/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/htdocs/includes/sabre/composer" />
+      <path value="$PROJECT_DIR$/htdocs/includes/DebugBar/Resources" />
+      <path value="$PROJECT_DIR$/htdocs/includes/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/htdocs/includes/sabre/sabre" />
+      <path value="$PROJECT_DIR$/htdocs/includes/ace/src" />
+      <path value="$PROJECT_DIR$/htdocs/includes/mike42/escpos-php" />
+      <path value="$PROJECT_DIR$/htdocs/includes/DebugBar/DataFormatter" />
+      <path value="$PROJECT_DIR$/htdocs/includes/DebugBar/Bridge" />
+      <path value="$PROJECT_DIR$/htdocs/includes/sabre/psr" />
+      <path value="$PROJECT_DIR$/htdocs/includes/DebugBar/Storage" />
+      <path value="$PROJECT_DIR$/htdocs/includes/swiftmailer/lexer" />
+      <path value="$PROJECT_DIR$/htdocs/includes/swiftmailer/egulias" />
+      <path value="$PROJECT_DIR$/htdocs/includes/nnnick/chartjs" />
+      <path value="$PROJECT_DIR$/htdocs/includes/DebugBar/DataCollector" />
+      <path value="$PROJECT_DIR$/htdocs/includes/swiftmailer/lib" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dolibarr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dolibarr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dolibarr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dolibarr" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dolibarr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dolibarr" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dolibarr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dolibarr" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="livraison" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04c9b91c-545e-4d19-9f8a-c97fe9b63cbb" name="Default Changelist" comment="" />
+      <created>1613645224116</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613645224116</updated>
+      <workItem from="1613645225406" duration="8642000" />
+      <workItem from="1613729525208" duration="1955000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10597000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/htdocs/core/menus/standard/eldy.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="711" column="69" selection-start-line="711" selection-start-column="27" selection-end-line="711" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#6#1004#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/core/lib/functions.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73695">
+          <caret line="4365" selection-start-line="4365" selection-end-line="4365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/langs/fr_FR/admin.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18938">
+          <caret line="1114" column="57" selection-start-line="1114" selection-start-column="57" selection-end-line="1114" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/master.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/livraison/card.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2244">
+          <folding>
+            <element signature="e#95#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/livraison/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/filefunc.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/admin/system/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-655" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#878#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/phpstan/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/main.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8296">
+          <caret line="1677" lean-forward="true" selection-start-line="1677" selection-end-line="1677" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
