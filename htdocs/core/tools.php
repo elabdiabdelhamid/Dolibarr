@@ -45,12 +45,12 @@ $text = $langs->trans("Tools");
 
 print load_fiche_titre($text, '', 'wrench');
 
-// Show description of content
-print '<div class="justify opacitymedium">'.$langs->trans("ToolsDesc").'</div><br><br>';
+// Show description of content delete text in page
+//print '<div class="justify opacitymedium">'.$langs->trans("ToolsDesc").'</div><br><br>';
 
 
-// Show logo
-print '<div class="center"><div class="logo_setup"></div></div>';
+// Show logo desable logo outils
+//print '<div class="center"><div class="logo_setup"></div></div>';
 
 
 llxFooter();

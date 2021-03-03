@@ -1080,17 +1080,18 @@ if (!function_exists("llxHeader"))
 
 		print '<body id="mainbody" class="'.$tmpcsstouse.'">'."\n";
 
-		// top menu and left menu area
-		if (empty($conf->dol_hide_topmenu) || GETPOST('dol_invisible_topmenu', 'int'))
-		{
-			top_menu($head, $title, $target, $disablejs, $disablehead, $arrayofjs, $arrayofcss, $morequerystring, $help_url);
-		}
 
-		if (empty($conf->dol_hide_leftmenu))
-		{
-			left_menu('', $help_url, '', '', 1, $title, 1); // $menumanager is retreived with a global $menumanager inside this function
-		}
+        // top menu and left menu area
+        if (empty($conf->dol_hide_topmenu) || GETPOST('dol_invisible_topmenu', 'int'))
+        {
+            top_menu($head, $title, $target, $disablejs, $disablehead, $arrayofjs, $arrayofcss, $morequerystring, $help_url);
+        }
 
+
+        if (empty($conf->dol_hide_leftmenu))
+        {
+            left_menu('', $help_url, '', '', 1, $title, 1); // $menumanager is retreived with a global $menumanager inside this function
+        }
 		// main area
 		if ($replacemainareaby)
 		{
@@ -1579,7 +1580,7 @@ function top_menu($head, $title = '', $target = '', $disablejs = 0, $disablehead
 		// Show menu entries
 		print '<div id="tmenu_tooltip'.(empty($conf->global->MAIN_MENU_INVERT) ? '' : 'invert').'" class="tmenu">'."\n";
 		$menumanager->atarget = $target;
-		$menumanager->showmenu('top', array('searchform'=>$searchform, 'bookmarks'=>$bookmarks)); // This contains a \n
+		$menumanager->showmenu('left', array('searchform'=>$searchform, 'bookmarks'=>$bookmarks)); // This contains a \n
 		print "</div>\n";
 
 		// Define link to login card
@@ -1869,10 +1870,10 @@ function top_menu_user($hideloginname = 0, $urllogout = '')
 	                '.$userDropDownImage.'
 	                <p>
 	                    '.$profilName.'<br>';
-		if ($user->datepreviouslogin) {
-			$btnUser .= '<small class="classfortooltip" title="'.$langs->trans("PreviousConnexion").'" ><i class="fa fa-user-clock"></i> '.dol_print_date($user->datepreviouslogin, "dayhour", 'tzuser').'</small><br>';
-		}
-		$btnUser .= '<small class="classfortooltip"><i class="fa fa-cog"></i> '.$langs->trans("Version").' '.$appli.'</small>
+//		if ($user->datepreviouslogin) {
+//			$btnUser .= '<small class="classfortooltip" title="'.$langs->trans("PreviousConnexion").'" ><i class="fa fa-user-clock"></i> '.dol_print_date($user->datepreviouslogin, "dayhour", 'tzuser').'</small><br>';
+//		}
+		$btnUser .= '<small class="classfortooltip"></small>
 	                </p>
 	            </div>
 
@@ -2220,7 +2221,7 @@ function left_menu($menu_array_before, $helppagename = '', $notused = '', $menu_
 		// Show left menu with other forms
 		$menumanager->menu_array = $menu_array_before;
 		$menumanager->menu_array_after = $menu_array_after;
-		$menumanager->showmenu('left', array('searchform'=>$searchform, 'bookmarks'=>$bookmarks)); // output menu_array and menu found in database
+		$menumanager->showmenu('top', array('searchform'=>$searchform, 'bookmarks'=>$bookmarks)); // output menu_array and menu found in database
 
 		// Dolibarr version + help + bug report link
 		print "\n";

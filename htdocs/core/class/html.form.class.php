@@ -5890,6 +5890,77 @@ class Form
 		return $retstring;
 	}
 
+    /**
+     *  Show a HTML widget to input a date or combo list for day, month, years and optionaly hours and minutes.
+	 *  Fields are preselected with :
+	 *              - set_time date (must be a local PHP server timestamp or string date with format 'YYYY-MM-DD' or 'YYYY-MM-DD HH:MM')
+	 *              - local date in user area, if set_time is '' (so if set_time is '', output may differs when done from two different location)
+	 *              - Empty (fields empty), if set_time is -1 (in this case, parameter empty must also have value 1)
+	 *
+	 *  @param  integer     $set_time       Pre-selected date (must be a local PHP server timestamp), -1 to keep date not preselected, '' to use current date with 00:00 hour (Parameter 'empty' must be 0 or 2).
+	 *  @param	string		$prefix			Prefix for fields name
+	 *  @param	int			$h				1 or 2=Show also hours (2=hours on a new line), -1 has same effect but hour and minutes are prefilled with 23:59 if date is empty, 3 show hour always empty
+	 *	@param	int			$m				1=Show also minutes, -1 has same effect but hour and minutes are prefilled with 23:59 if date is empty, 3 show minutes always empty
+	 *	@param	int			$empty			0=Fields required, 1=Empty inputs are allowed, 2=Empty inputs are allowed for hours only
+	 *	@param	string		$form_name 		Not used
+	 *	@param	int			$d				1=Show days, month, years
+	 * 	@param	int			$addnowlink		Add a link "Now", 1 with server time, 2 with local computer time
+	 * 	@param 	int			$disabled		Disable input fields
+	 *  @param  int			$fullday        When a checkbox with id #fullday is cheked, hours are set with 00:00 (if value if 'fulldaystart') or 23:59 (if value is 'fulldayend')
+	 *  @param	string		$addplusone		Add a link "+1 hour". Value must be name of another selectDate field.
+	 *  @param  datetime    $adddateof      Add a link "Date of ..." using the following date. See also $labeladddateof for the label used.
+     *  @param  string      $openinghours   Specify hour start and hour end for the select ex 8,20
+     *  @param  int         $stepminutes    Specify step for minutes between 1 and 30
+     *  @param	string		$labeladddateof Label to use for the $adddateof parameter.
+	 * 	@return string                      Html for selectDate
+	 *  @see    form_date(), select_month(), select_year(), select_dayofweek()
+	 */
+    public function selectSociete( $search_societe )
+	{
+        global $db;
+
+        $results =$db->getRows('select DISTINCT nom from llx_societe');
+
+		$retstring = '<td class="liste_titre">
+<select class="flat maxwidth75imp" name="search_societe" id="search_societe">';
+
+
+		foreach ($results as $result) {
+            $retstring .= '<option value="' . $result->nom . '" ' . ($result->nom == $search_societe ? 'selected' : null) . '>' . $result->nom . '</option>';
+        }
+
+		$retstring .= '</select>
+<script>
+        	$(document).ready(function () {
+        		$("#search_societe").select2({
+        		    dir: "ltr",
+        			width: "resolve",		/* off or resolve */
+					minimumInputLength: 0,
+					language: select2arrayoflanguage,
+    				containerCssClass: ":all:",					/* Line to add class of origin SELECT propagated to the new <span class="select2-selection...> tag */
+					templateResult: function (data, container) {	/* Format visible output into combo list */
+	 					/* Code to add class of origin OPTION propagated to the new select2 <li> tag */
+						if (data.element) { $(container).addClass($(data.element).attr("class")); }
+					    //console.log(data.html);
+						if ($(data.element).attr("data-html") != undefined) return htmlEntityDecodeJs($(data.element).attr("data-html"));		// If property html set, we decode html entities and use this
+					    return data.text;
+					},
+					templateSelection: function (selection) {		/* Format visible output of selected value */
+						return selection.text;
+					},
+					escapeMarkup: function(markup) {
+						return markup;
+					},
+					dropdownCssClass: "ui-dialog"
+				});
+});
+</script>
+
+</td>';
+
+		return $retstring;
+	}
+
     // phpcs:disable PEAR.NamingConventions.ValidFunctionName.ScopeNotCamelCaps
     /**
      *  Function to show a form to select a duration on a page

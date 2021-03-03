@@ -1972,6 +1972,7 @@ function print_left_eldy_menu($db, $menu_array_before, $menu_array_after, &$tabM
 	{
 		$altok = 0; $blockvmenuopened = false; $lastlevel0 = '';
 		$num = count($menu_array);
+
 		for ($i = 0; $i < $num; $i++)     // Loop on each menu entry
 		{
 			$showmenu = true;
@@ -1995,6 +1996,8 @@ function print_left_eldy_menu($db, $menu_array_before, $menu_array_after, &$tabM
 				{
 					print '<div class="blockvmenu blockvmenupair'.$invert.($lastopened ? ' blockvmenulast' : '').($altok == 1 ? ' blockvmenufirst' : '').'">'."\n";
 				}
+                print '<div class="menu_container">';
+
 			}
 
 			// Add tabulation
@@ -2096,6 +2099,8 @@ function print_left_eldy_menu($db, $menu_array_before, $menu_array_after, &$tabM
 				if ($showmenu)
 					print '<div class="menu_end"></div>'."\n";
 				if ($blockvmenuopened) { print '</div>'."\n"; $blockvmenuopened = false; }
+
+                print '</div>';
 			}
 		}
 

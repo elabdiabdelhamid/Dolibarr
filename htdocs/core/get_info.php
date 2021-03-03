@@ -133,7 +133,7 @@ if (!empty($conf->modulebuilder->enabled))
 }
 
 // Link to print main content area
-/*
+
 if (empty($conf->global->MAIN_PRINT_DISABLELINK) && empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER) && $conf->browser->layout != 'phone')
 {
 	$qs=dol_escape_htmltag($_SERVER["QUERY_STRING"]);
@@ -146,17 +146,18 @@ if (empty($conf->global->MAIN_PRINT_DISABLELINK) && empty($conf->global->MAIN_OP
 	}
 	$qs.=(($qs && $morequerystring)?'&':'').$morequerystring;
 	$text ='<a href="'.dol_escape_htmltag($_SERVER["PHP_SELF"]).'?'.$qs.($qs?'&':'').'optioncss=print" target="_blank">';
-	//$text.= img_picto(":".$langs->trans("PrintContentArea"), 'printer_top.png', 'class="printer"');
+	$text.= img_picto(":".$langs->trans("PrintContentArea"), 'printer_top.png', 'class="printer"');
 	$text.='<span class="fa fa-print atoplogin"></span>';
 	$text.='</a>';
 	$toprightmenu.=@Form::textwithtooltip('',$langs->trans("PrintContentArea"),2,1,$text,'login_block_elem',2);
 }
-*/
+
 
 // Link to Dolibarr wiki pages
-/*
+
 if (empty($conf->global->MAIN_HELP_DISABLELINK) && empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER))
 {
+
 	$langs->load("help");
 
 	$helpbaseurl='';
@@ -191,7 +192,8 @@ if (empty($conf->global->MAIN_HELP_DISABLELINK) && empty($conf->global->MAIN_OPT
 		$toprightmenu.=@Form::textwithtooltip('',$title,2,1,$text,'login_block_elem',2);
 	}
 }
-*/
+
+echo '<h1>erferferferfef"e</h1>';
 
 // Logout link
 if (GETPOST('withlogout', 'int')) $toprightmenu .= @Form::textwithtooltip('', $logouthtmltext, 2, 1, $logouttext, 'login_block_elem', 2);

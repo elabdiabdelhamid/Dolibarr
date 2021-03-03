@@ -1,7 +1,378 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04c9b91c-545e-4d19-9f8a-c97fe9b63cbb" name="Default Changelist" comment="" />
+    <list default="true" id="04c9b91c-545e-4d19-9f8a-c97fe9b63cbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/htdocs/asset/CRM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/core/modules/facture/doc/pdf_cbs.modules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/AUTHOR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/badges.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/btn.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/ckeditor/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/ckeditor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/doc/badges.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/doc/doc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/dropdown.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/global.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/addfile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/bg-bas-rubrique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/bg-rubrique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/bg-titre-rubrique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/button_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/button_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/calc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/call_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/close_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/credit_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/disable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/edit_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/editdelete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/external.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/filenew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/folder-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/gradient.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/grip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/grip_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/headbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/headbg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/helpdoc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/helpdoc_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/high.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/history.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/info_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/liste_titre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/liste_titre2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/listlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/login_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/logo_setup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/logout_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/agenda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/agenda_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/bank_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/commercial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/commercial_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/company.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/company_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/ecm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/ecm_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/externalsite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/externalsite_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/ftp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/ftp_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/generic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/generic1_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/generic2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/generic2_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/generic3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/generic3_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/generic4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/generic4_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/globe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/globe_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/holiday.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/holiday_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/home_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/mail_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/members.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/members_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/money_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/pointofsale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/pointofsale_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/products.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/products_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/project_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/shop_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/ticket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/ticket_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus/tools_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/agenda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/agenda_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/bank_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/commercial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/commercial_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/company.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/company_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/ecm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/ecm_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/externalsite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/externalsite_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/ftp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/ftp_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/generic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/generic1_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/generic2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/generic2_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/generic3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/generic3_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/generic4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/generic4_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/globe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/globe_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/holiday.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/holiday_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/home_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/mail_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/members.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/members_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/money_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/pointofsale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/pointofsale_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/products.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/products_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/project_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/shop_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/ticket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/ticket_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menus_black/tools_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/menutab-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/nav-overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/nav-overlay3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/nographyet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_accounting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_action.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_address.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_barcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_bill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_billa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_billd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_billr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_bom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_bookmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_building.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_calendarday.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_calendargantt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_calendarpertype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_calendarperuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_calendarweek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_category-expanded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_commercial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_company.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_contract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_cron.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_debugbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_energy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_generic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_geoip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_globe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_gravatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_holiday.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_intervention.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_invoice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_label.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_margin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_movement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_mrp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_multicurrency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_opensurvey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_payment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_phoning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_phoning_fax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_phoning_mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_printer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_projectpub.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_projecttask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_propal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_reduc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_resource.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_sending.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_skype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_stock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_stripe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_supplier_proposal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_task_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_tax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_technic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_ticket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_trip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_website.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/object_zapier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/pdf2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/pdf3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/playdisabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/playstop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/preview_ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/printer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/printer_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/puce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/recent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/redstar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/searchclear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/setup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/split.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/stats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut0_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut1_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut3_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut4_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut5_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut6_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut7_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut8_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/statut9_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/stcomm-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/stcomm0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/stcomm1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/stcomm2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/stcomm3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/stcomm4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/switch_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/switch_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/tab_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_accountancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_agenda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_commercial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_companies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_document.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_generic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_hrm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_products.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_setup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/title_ticket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/tmenu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/tmenu2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/tmenu3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/tmenu_inverse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/unlock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/uparrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/vcard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/warning_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-clear-night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-clouds-night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-few-clouds-night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-few-clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-freezing-rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-hail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-many-clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-mist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-showers-day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-showers-night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-showers-scattered-day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-showers-scattered-night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-showers-scattered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-showers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-snow-rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-snow-scattered-day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-snow-scattered-night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-snow-scattered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-storm-day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-storm-night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/weather/weather-storm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/img/working.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/info-box.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/main_menu_fa_icons.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/manifest.json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/progress.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/style.css.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/theme_vars.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/timeline.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/tpl/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/theme/mytheme/tpl/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/accountancy/customer/lines.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/accountancy/customer/lines.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/compta/facture/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/compta/facture/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/core/class/html.form.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/core/class/html.form.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/core/get_info.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/core/get_info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/core/menus/standard/eldy.lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/core/menus/standard/eldy.lib.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/core/modules/facture/doc/pdf_crabe.modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/core/modules/facture/doc/pdf_crabe.modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/core/tools.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/core/tools.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/core/tpl/login.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/core/tpl/login.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/core/tpl/passwordforgotten.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/core/tpl/passwordforgotten.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/main.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/main.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/theme/eldy/doc/doc.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/theme/eldy/doc/doc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/theme/eldy/dropdown.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/theme/eldy/dropdown.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/theme/eldy/main_menu_fa_icons.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/theme/eldy/main_menu_fa_icons.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/theme/md/main_menu_fa_icons.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/theme/md/main_menu_fa_icons.inc.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,99 +385,132 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/index.php">
+        <entry file="file://$PROJECT_DIR$/htdocs/core/class/html.form.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="427">
+              <caret line="5892" column="7" lean-forward="true" selection-end-line="8322" />
               <folding>
-                <element signature="e#6#1004#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="e#17#23#1" expanded="true" />
+                <element signature="e#18#24#1" expanded="true" />
+                <element signature="e#1#7#0" expanded="true" />
+                <element signature="e#1#7#0" expanded="true" />
+                <element signature="e#18#24#1" expanded="true" />
+                <element signature="e#0#6#0" expanded="true" />
+                <element signature="e#7#13#0" expanded="true" />
+                <element signature="e#27#33#1" expanded="true" />
+                <element signature="e#18#24#1" expanded="true" />
+                <element signature="e#18#24#1" expanded="true" />
+                <element signature="e#18#24#1" expanded="true" />
+                <element signature="e#18#24#1" expanded="true" />
+                <element signature="e#18#24#1" expanded="true" />
+                <element signature="e#17#23#1" expanded="true" />
+                <element signature="e#19#25#1" expanded="true" />
+                <element signature="e#19#25#1" expanded="true" />
+                <element signature="e#19#25#1" expanded="true" />
+                <element signature="e#19#25#1" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#17#23#1" expanded="true" />
+                <element signature="e#27#33#1" expanded="true" />
+                <element signature="e#27#33#1" expanded="true" />
+                <element signature="e#19#25#1" expanded="true" />
+                <element signature="e#19#25#1" expanded="true" />
+                <element signature="e#31#37#1" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#104#110#0" expanded="true" />
+                <element signature="e#110#116#0" expanded="true" />
+                <element signature="e#116#122#0" expanded="true" />
+                <element signature="e#122#128#0" expanded="true" />
+                <element signature="e#128#134#0" expanded="true" />
+                <element signature="e#19#25#1" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#18#24#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/admin/index.php">
+        <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/main_menu_fa_icons.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-              <folding>
-                <element signature="e#6#878#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/phpstan/bootstrap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/admin/system/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-655" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/core/lib/functions.lib.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73695">
-              <caret line="4365" selection-start-line="4365" selection-end-line="4365" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/langs/fr_FR/admin.lang">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18938">
-              <caret line="1114" column="57" selection-start-line="1114" selection-start-column="57" selection-end-line="1114" selection-end-column="57" />
+            <state relative-caret-position="1012">
+              <caret line="63" column="1" lean-forward="true" selection-end-line="198" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/htdocs/main.inc.php">
+        <entry file="file://$PROJECT_DIR$/htdocs/theme/eldy/main_menu_fa_icons.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8296">
-              <caret line="1677" lean-forward="true" selection-start-line="1677" selection-end-line="1677" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="402">
+              <caret line="154" column="1" lean-forward="true" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/master.inc.php">
+        <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/global.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="332">
+              <caret line="1447" column="23" lean-forward="true" selection-start-line="1447" selection-start-column="23" selection-end-line="1447" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/filefunc.inc.php">
+        <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/info-box.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="320">
+              <caret line="403" column="24" lean-forward="true" selection-start-line="403" selection-start-column="24" selection-end-line="403" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/core/tools.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/theme/eldy/dropdown.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="187" selection-start-line="187" selection-end-line="187" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/core/modules/facture/doc/pdf_cbs.modules.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9868">
+              <caret line="711" column="56" selection-start-line="711" selection-start-column="56" selection-end-line="711" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/langs/fr_FR/main.lang">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="236" column="5" selection-start-line="236" selection-end-line="236" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/core/modules/facture/doc/pdf_crabe.modules.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="841">
+              <caret line="1598" column="112" selection-start-line="1598" selection-start-column="112" selection-end-line="1598" selection-end-column="112" />
+              <folding>
+                <element signature="e#6#1388#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,54 +519,101 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>side-nav</find>
-      <find>id-right</find>
-      <find>logo_setup</find>
-      <find>fiche</find>
-      <find>centpercent</find>
-      <find>main_area</find>
-      <find>notopnoleftnoright</find>
-      <find>L'espace configuration permet de réaliser le paramétrage</find>
-      <find>L'espace configuration permet de réaliser le paramétrage initial afin de pouvoir commencer à utiliser l'applic</find>
-      <find>SetupDescription1²</find>
-      <find>Mon tableau de bord</find>
-      <find>MyDashboard</find>
-      <find>htdocs</find>
-      <find>home</find>
-      <find>titre</find>
-      <find>id-left</find>
-      <find>left_menu</find>
-      <find>men</find>
-      <find>menu</find>
-      <find>side-nav-vert</find>
-      <find>dol_invisible_topmenu</find>
-      <find>SetupDescription1</find>
-      <find>fa fa-print</find>
-      <find>login_block_other</find>
-      <find>valignmiddle</find>
+      <find>.menulogocontainer</find>
+      <find>.mainmenu::before</find>
       <find>navigation</find>
-      <find>Dolibarr</find>
-      <find>Outils</find>
-      <find>doli</find>
-      <find>tmenuimage</find>
+      <find>tmenudiv</find>
+      <find>li.tmenu, li.tmenusel</find>
+      <find>only screen and (max-width: 1510px)</find>
+      <find>select2-search</find>
+      <find>div.tmenucenter</find>
+      <find>autocomplete</find>
+      <find>search</find>
+      <find>search_societe</find>
+      <find>from llx_societe</find>
+      <find>search_socie</find>
+      <find>a.tmenusel:link, a.tmenusel:visited, a.tmenusel:hover, a.tmenusel:active</find>
+      <find>search_soci</find>
+      <find>name=&quot;search_societe</find>
+      <find>id=&quot;search_societe&quot;</find>
+      <find>tr.liste_titre th a, th.liste_titre a, tr.liste_titre td a, td.liste_titre a, form.liste_titre div a, div.liste_titre a</find>
+      <find>ToolsDesc</find>
+      <find>.dropdown-menu &gt; .user-header</find>
+      <find>logo_setup</find>
+      <find>container</find>
+      <find>Modèle de document</find>
+      <find>Model</find>
+      <find>menu</find>
+      <find>@med</find>
+      <find>.blockvmenu .menu_titre</find>
+      <find>div#tmenu_tooltip</find>
+      <find>@media</find>
+      <find>.menu_container</find>
     </findStrings>
     <dirStrings>
-      <dir>C:\xampp\htdocs\dolibarr\htdocs</dir>
       <dir>C:\xampp\htdocs\dolibarr\htdocs\admin</dir>
+      <dir>C:\xampp\htdocs\dolibarr\htdocs\theme\md</dir>
+      <dir>C:\xampp\htdocs\dolibarr\htdocs\core\modules\facture</dir>
+      <dir>C:\xampp\htdocs\dolibarr\htdocs\compta</dir>
+      <dir>C:\xampp\htdocs\dolibarr\htdocs\theme\eldy</dir>
+      <dir>C:\xampp\htdocs\dolibarr\htdocs\compta\facture</dir>
+      <dir>C:\xampp\htdocs\dolibarr\htdocs\theme\mytheme</dir>
+      <dir>C:\xampp\htdocs\dolibarr</dir>
+      <dir>C:\xampp\htdocs\dolibarr\htdocs</dir>
+      <dir>C:\xampp\htdocs\dolibarr\htdocs\core</dir>
+      <dir>C:\xampp\htdocs\dolibarr\htdocs\theme</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/htdocs/theme/md/style.css.php" />
         <option value="$PROJECT_DIR$/htdocs/user/group/card.php" />
         <option value="$PROJECT_DIR$/htdocs/bom/bom_document.php" />
         <option value="$PROJECT_DIR$/htdocs/core/lib/functions.lib.php" />
-        <option value="$PROJECT_DIR$/htdocs/core/menus/standard/eldy.lib.php" />
-        <option value="$PROJECT_DIR$/htdocs/index.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/htdocs/admin/index.php" />
+        <option value="$PROJECT_DIR$/htdocs/theme/md/style.css.php" />
+        <option value="$PROJECT_DIR$/../BackOffice/www/server.php" />
+        <option value="$PROJECT_DIR$/htdocs/core/tpl/passwordforgotten.tpl.php" />
+        <option value="$PROJECT_DIR$/htdocs/core/tpl/login.tpl.php" />
+        <option value="$PROJECT_DIR$/htdocs/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/login.tpl.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+        <option value="$PROJECT_DIR$/htdocs/core/get_info.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/pdf_crabe.modules.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/main.inc.php" />
+        <option value="$PROJECT_DIR$/htdocs/core/modules/facture/doc/pdf_crabe.modules.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/pdf_sponge.modules.php" />
+        <option value="$PROJECT_DIR$/htdocs/theme/eldy/global.inc.php" />
+        <option value="$PROJECT_DIR$/htdocs/theme/eldy/doc/doc.css" />
+        <option value="$PROJECT_DIR$/htdocs/theme/mytheme/mytheme.css.php" />
+        <option value="$PROJECT_DIR$/htdocs/theme/mytheme/style.css.php" />
+        <option value="$PROJECT_DIR$/htdocs/core/class/html.form.class.php" />
+        <option value="$PROJECT_DIR$/htdocs/core/class/conf.class.php" />
+        <option value="$PROJECT_DIR$/htdocs/theme/mytheme/doc/badges.php" />
+        <option value="$PROJECT_DIR$/htdocs/core/menus/standard/eldy.lib.php" />
         <option value="$PROJECT_DIR$/htdocs/main.inc.php" />
+        <option value="$PROJECT_DIR$/htdocs/theme/mytheme/main_menu_fa_icons.inc.php" />
+        <option value="$PROJECT_DIR$/htdocs/theme/eldy/main_menu_fa_icons.inc.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/main_menu_fa_icons.inc.php" />
+        <option value="$PROJECT_DIR$/htdocs/theme/md/main_menu_fa_icons.inc.php" />
+        <option value="$PROJECT_DIR$/htdocs/compta/facture/list.php" />
+        <option value="$PROJECT_DIR$/htdocs/accountancy/customer/lines.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/global.inc.php" />
+        <option value="$PROJECT_DIR$/htdocs/core/tools.php" />
+        <option value="$PROJECT_DIR$/htdocs/theme/mytheme/dropdown.inc.php" />
+        <option value="$PROJECT_DIR$/htdocs/theme/md/dropdown.inc.php" />
+        <option value="$PROJECT_DIR$/htdocs/theme/eldy/dropdown.inc.php" />
+        <option value="$PROJECT_DIR$/htdocs/core/modules/facture/doc/pdf_cbs.modules.php" />
+        <option value="$PROJECT_DIR$/htdocs/theme/mytheme/global.inc.php" />
       </list>
     </option>
   </component>
@@ -207,6 +658,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -228,13 +680,51 @@
               <item name="dolibarr" type="b2602c69:ProjectViewProjectNode" />
               <item name="dolibarr" type="462c0819:PsiDirectoryNode" />
               <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dolibarr" type="b2602c69:ProjectViewProjectNode" />
               <item name="dolibarr" type="462c0819:PsiDirectoryNode" />
               <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="livraison" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dolibarr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dolibarr" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="facture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dolibarr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dolibarr" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="facture" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dolibarr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dolibarr" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dolibarr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dolibarr" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="eldy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dolibarr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dolibarr" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="mytheme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,9 +735,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Akwa/back" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dolibarr\htdocs\theme" />
+      <recent name="C:\xampp\htdocs\dolibarr\htdocs\core\modules\facture\doc" />
+      <recent name="C:\xampp\htdocs\dolibarr\htdocs\asset" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -273,17 +772,31 @@
       <updated>1613645224116</updated>
       <workItem from="1613645225406" duration="8642000" />
       <workItem from="1613729525208" duration="1955000" />
+      <workItem from="1613741090703" duration="2187000" />
+      <workItem from="1613744096564" duration="641000" />
+      <workItem from="1613929875186" duration="21543000" />
+      <workItem from="1614013953470" duration="2995000" />
+      <workItem from="1614031405872" duration="598000" />
+      <workItem from="1614066681734" duration="19963000" />
+      <workItem from="1614175115107" duration="886000" />
+      <workItem from="1614190265347" duration="113000" />
+      <workItem from="1614239647549" duration="10780000" />
+      <workItem from="1614282517367" duration="25000" />
+      <workItem from="1614331554265" duration="17095000" />
+      <workItem from="1614592930548" duration="37641000" />
+      <workItem from="1614718828450" duration="3659000" />
+      <workItem from="1614757930586" duration="12125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10597000" />
+    <option name="totallyTimeSpent" value="140848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29317698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -297,7 +810,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -308,99 +821,135 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/htdocs/core/menus/standard/eldy.lib.php">
+    <entry file="file://$PROJECT_DIR$/htdocs/cashdesk/deconnexion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="711" column="69" selection-start-line="711" selection-start-column="27" selection-end-line="711" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="51">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding>
-            <element signature="e#6#1004#0#PHP" expanded="true" />
+            <element signature="e#6#726#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/htdocs/core/lib/functions.lib.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73695">
-          <caret line="4365" selection-start-line="4365" selection-end-line="4365" />
+        <state relative-caret-position="5593">
+          <caret line="359" column="44" selection-start-line="359" selection-start-column="38" selection-end-line="359" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/langs/fr_FR/admin.lang">
+    <entry file="file://$PROJECT_DIR$/htdocs/conf/conf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18938">
-          <caret line="1114" column="57" selection-start-line="1114" selection-start-column="57" selection-end-line="1114" selection-end-column="57" />
+        <state relative-caret-position="187">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/master.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/livraison/card.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2244">
-          <folding>
-            <element signature="e#95#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/livraison/index.html">
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/eldy/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/filefunc.inc.php">
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/eldy/tpl/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/eldy/ckeditor/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/doc/doc.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/eldy/style.css.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="408">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/eldy/doc/doc.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/admin/system/database.php">
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/eldy/global.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-655" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <element signature="e#6#878#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="1362" column="25" selection-start-line="1362" selection-start-column="25" selection-end-line="1362" selection-end-column="25" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/AUTHOR">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build/phpstan/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/core/class/conf.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="679" selection-start-line="679" selection-end-line="679" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/tpl/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/dropdown.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="344" column="43" selection-start-line="344" selection-start-column="43" selection-end-line="344" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/theme_vars.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/doc/badges.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-337" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/progress.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="148" column="32" selection-start-line="148" selection-start-column="32" selection-end-line="148" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/eldy.lib.php" />
+    <entry file="file://$PROJECT_DIR$/htdocs/core/get_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="119" column="41" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/ckeditor/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/htdocs/main.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8296">
-          <caret line="1677" lean-forward="true" selection-start-line="1677" selection-end-line="1677" />
+        <state relative-caret-position="281">
+          <caret line="1575" column="25" selection-start-line="1575" selection-start-column="25" selection-end-line="1575" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -411,6 +960,299 @@
             <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/main_menu_fa_icons.inc.php" />
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/md/main_menu_fa_icons.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/core/menus/standard/empty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="522" column="23" selection-start-line="522" selection-start-column="23" selection-end-line="522" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/core/menus/standard/auguria.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="191" column="23" selection-start-line="191" selection-start-column="23" selection-end-line="191" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/eldy_menu.php" />
+    <entry file="file://$PROJECT_DIR$/htdocs/core/menus/standard/eldy.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="561" column="4" selection-start-line="561" selection-start-column="4" selection-end-line="561" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/compta/facture/class/facture.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/compta/facture/card.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="e#19#25#1" expanded="true" />
+            <element signature="e#4#10#0" expanded="true" />
+            <element signature="e#10#16#0" expanded="true" />
+            <element signature="e#16#22#0" expanded="true" />
+            <element signature="e#92#97#0" expanded="true" />
+            <element signature="e#96#101#0" expanded="true" />
+            <element signature="e#91#96#0" expanded="true" />
+            <element signature="e#92#97#0" expanded="true" />
+            <element signature="e#85#90#0" expanded="true" />
+            <element signature="e#98#103#0" expanded="true" />
+            <element signature="e#79#84#0" expanded="true" />
+            <element signature="e#27#33#0" expanded="true" />
+            <element signature="e#34#40#0" expanded="true" />
+            <element signature="e#41#47#0" expanded="true" />
+            <element signature="e#48#54#0" expanded="true" />
+            <element signature="e#92#97#0" expanded="true" />
+            <element signature="e#97#102#0" expanded="true" />
+            <element signature="e#109#114#0" expanded="true" />
+            <element signature="e#106#111#0" expanded="true" />
+            <element signature="e#93#98#0" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
+            <element signature="e#15#21#1" expanded="true" />
+            <element signature="e#15#21#1" expanded="true" />
+            <element signature="e#15#21#1" expanded="true" />
+            <element signature="e#35#41#1" expanded="true" />
+            <element signature="e#103#109#1" expanded="true" />
+            <element signature="e#127#133#1" expanded="true" />
+            <element signature="e#127#133#1" expanded="true" />
+            <element signature="e#127#133#1" expanded="true" />
+            <element signature="e#127#133#1" expanded="true" />
+            <element signature="e#131#137#1" expanded="true" />
+            <element signature="e#19#25#1" expanded="true" />
+            <element signature="e#193#199#1" expanded="true" />
+            <element signature="e#61#67#1" expanded="true" />
+            <element signature="e#62#68#1" expanded="true" />
+            <element signature="e#139#145#1" expanded="true" />
+            <element signature="e#19#25#1" expanded="true" />
+            <element signature="e#29#35#1" expanded="true" />
+            <element signature="e#4#10#1" expanded="true" />
+            <element signature="e#29#35#1" expanded="true" />
+            <element signature="e#4#10#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/fichinter/card-rec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="755" column="12" selection-start-line="755" selection-start-column="12" selection-end-line="755" selection-end-column="12" />
+          <folding>
+            <element signature="e#65#70#0" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="e#71#76#0" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/compta/facture/invoicetemplate_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/compta/stats/casoc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="386" column="54" selection-start-line="386" selection-start-column="54" selection-end-line="386" selection-end-column="54" />
+          <folding>
+            <element signature="e#24#30#1" expanded="true" />
+            <element signature="e#24#30#1" expanded="true" />
+            <element signature="e#24#30#1" expanded="true" />
+            <element signature="e#24#30#1" expanded="true" />
+            <element signature="e#4#10#1" expanded="true" />
+            <element signature="e#4#10#1" expanded="true" />
+            <element signature="e#4#10#1" expanded="true" />
+            <element signature="e#4#10#1" expanded="true" />
+            <element signature="e#4#10#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/compta/prelevement/demandes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="219" column="75" selection-start-line="219" selection-start-column="75" selection-end-line="219" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/compta/facture/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14603">
+          <caret line="887" column="41" selection-end-line="1648" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/list.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/accountancy/customer/lines.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5083">
+          <caret line="317" column="33" selection-start-line="317" selection-start-column="33" selection-end-line="323" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/style.css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="75" column="39" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+          <folding>
+            <element signature="e#6#1076#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/core/lib/ajax.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/projet/tasks/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9265">
+          <caret line="562" column="49" selection-start-line="562" selection-start-column="49" selection-end-line="562" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/global.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="1828" column="31" lean-forward="true" selection-start-line="1828" selection-start-column="31" selection-end-line="1828" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/core/tools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/core/modules/facture/doc/pdf_crabe.modules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="1598" column="112" selection-start-line="1598" selection-start-column="112" selection-end-line="1598" selection-end-column="112" />
+          <folding>
+            <element signature="e#6#1388#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/langs/fr_FR/main.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="236" column="5" selection-start-line="236" selection-end-line="236" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/eldy/dropdown.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/info-box.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="403" column="24" lean-forward="true" selection-start-line="403" selection-start-column="24" selection-end-line="403" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/global.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="1447" column="23" lean-forward="true" selection-start-line="1447" selection-start-column="23" selection-end-line="1447" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/core/modules/facture/doc/pdf_cbs.modules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9868">
+          <caret line="711" column="56" selection-start-line="711" selection-start-column="56" selection-end-line="711" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/core/class/html.form.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="5892" column="7" lean-forward="true" selection-end-line="8322" />
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="e#17#23#1" expanded="true" />
+            <element signature="e#18#24#1" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
+            <element signature="e#18#24#1" expanded="true" />
+            <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#7#13#0" expanded="true" />
+            <element signature="e#27#33#1" expanded="true" />
+            <element signature="e#18#24#1" expanded="true" />
+            <element signature="e#18#24#1" expanded="true" />
+            <element signature="e#18#24#1" expanded="true" />
+            <element signature="e#18#24#1" expanded="true" />
+            <element signature="e#18#24#1" expanded="true" />
+            <element signature="e#17#23#1" expanded="true" />
+            <element signature="e#19#25#1" expanded="true" />
+            <element signature="e#19#25#1" expanded="true" />
+            <element signature="e#19#25#1" expanded="true" />
+            <element signature="e#19#25#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#17#23#1" expanded="true" />
+            <element signature="e#27#33#1" expanded="true" />
+            <element signature="e#27#33#1" expanded="true" />
+            <element signature="e#19#25#1" expanded="true" />
+            <element signature="e#19#25#1" expanded="true" />
+            <element signature="e#31#37#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#104#110#0" expanded="true" />
+            <element signature="e#110#116#0" expanded="true" />
+            <element signature="e#116#122#0" expanded="true" />
+            <element signature="e#122#128#0" expanded="true" />
+            <element signature="e#128#134#0" expanded="true" />
+            <element signature="e#19#25#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#18#24#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/mytheme/main_menu_fa_icons.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="63" column="1" lean-forward="true" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/theme/eldy/main_menu_fa_icons.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="154" column="1" lean-forward="true" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -186,7 +186,7 @@ a.top-menu-dropdown-link {
 }
 
 .dropdown-menu > .user-header{
-    background: var(--colorbackhmenu1);
+    background: #e21b60;
 }
 
 .dropdown-menu .dropdown-header{

@@ -111,13 +111,13 @@ $(document).ready(function () {
 
 
 <!-- Title with version -->
-<div class="login_table_title center" title="<?php echo dol_escape_htmltag($title); ?>">
+<!--<div class="login_table_title center" title="--><?php //echo dol_escape_htmltag($title); ?><!--">-->
 <?php
-if ($disablenofollow) echo '<a class="login_table_title" href="https://www.dolibarr.org" target="_blank">';
-echo dol_escape_htmltag($title);
-if ($disablenofollow) echo '</a>';
-?>
-</div>
+//if ($disablenofollow) echo '<a class="login_table_title" href="https://www.dolibarr.org" target="_blank">';
+//echo dol_escape_htmltag($title);
+//if ($disablenofollow) echo '</a>';
+//?>
+<!--</div>-->
 
 
 
@@ -125,9 +125,9 @@ if ($disablenofollow) echo '</a>';
 
 <div id="login_line1">
 
-<div id="login_left">
-<img alt="" src="<?php echo $urllogo; ?>" id="img_logo" />
-</div>
+<!--<div id="login_left">-->
+<!--<img alt="" src="--><?php //echo $urllogo; ?><!--" id="img_logo" />-->
+<!--</div>-->
 
 <br>
 
